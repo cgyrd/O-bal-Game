@@ -1,0 +1,59 @@
+.page-entiere {
+  display: flex;
+  flex-direction: column;
+}
+
+.titre-jeu {
+  border-radius: 50px;
+  background: #3a2546;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 15px;
+}
+.page-entiere h2 {
+  color: white;
+  font-family: "Nova Square", serif;
+  text-transform: uppercase;
+}
+
+.explication {
+  border-radius: 50px;
+
+  background: #3a2546;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 15px;
+  color: white;
+  font-family: "Nova Square", serif;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.9;
+  margin: 20px;
+}
+
+.press-play {
+  margin: 12px;
+  height: 90px;
+  width: 150px;
+  border-radius: 10px;
+  background: #3a2546;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+    inset -5px -5px 10px #222;
+  font-family: "Nova Square", serif;
+  cursor: pointer;
+  border: none;
+  font-size: 46px;
+  color: white;
+  transition: 500ms;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .explication {
+    width: 35%;
+    font-size: 22px;
+  }
+}

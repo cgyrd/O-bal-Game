@@ -3,16 +3,14 @@
   flex-direction: column;
 }
 
-.titre-jeu {
-  border-radius: 50px;
-  background: #3a2546;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  padding: 15px;
-}
-.page-entiere h2 {
+.titre-jeu h2 {
   color: white;
   font-family: "Nova Square", serif;
   text-transform: uppercase;
+  width: 50%;border-radius: 50px;
+  background: #3a2546;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 15px;
 }
 
 .explication {
@@ -32,8 +30,14 @@
   margin: 20px;
 }
 
+.play 
+{display:flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20%;
+}
 .press-play {
-  margin: 12px;
+  margin: 50px;
   height: 90px;
   width: 150px;
   border-radius: 10px;
@@ -47,10 +51,17 @@
   border: none;
   font-size: 46px;
   color: white;
-  transition: 500ms;
   overflow: hidden;
 }
 
+/* personnnages */ 
+.player-femme {
+    width: 80px;
+}
+
+.player-homme {
+    width: 60px;
+}
 @media screen and (min-width: 768px) {
   .explication {
     width: 35%;
